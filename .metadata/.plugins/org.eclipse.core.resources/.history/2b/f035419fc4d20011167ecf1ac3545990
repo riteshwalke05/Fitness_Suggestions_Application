@@ -1,0 +1,15 @@
+package com.fitness.userservice.Repo;
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.fitness.userservice.model.User;
+
+public interface UserRepository extends JpaRepository<User, Integer>{
+
+	boolean existsByEmail(String emial);
+
+	Optional<User> findById(String userId);
+
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="C:\Program Files\Java\jdk-17" version="17.0.12"/>
+    <libraryInfo home="D:\SpringToolIDE\sts-5.2.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.3.v20260502-0818\jre" version="25.0.3"/>
+    <libraryInfo home="D:\SpringToolIDE\sts-5.2.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.3.v20260502-0818" version="25.0.3">
+        <bootpath>
+            <entry path="null"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="null"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="null"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="C:\Program Files\Java\jdk-24" version="24.0.2"/>
+    <libraryInfo home="C:\Program Files\Eclipse Adoptium\jdk-8.0.502.7-hotspot" version="1.8.0_502">
+        <bootpath>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.502.7-hotspot\jre\lib\resources.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.502.7-hotspot\jre\lib\rt.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.502.7-hotspot\jre\lib\sunrsasign.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.502.7-hotspot\jre\lib\jsse.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.502.7-hotspot\jre\lib\jce.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.502.7-hotspot\jre\lib\charsets.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.502.7-hotspot\jre\lib\jfr.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.502.7-hotspot\jre\classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.502.7-hotspot\jre\lib\ext"/>
+            <entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.502.7-hotspot\jre\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+</libraryInfos>
