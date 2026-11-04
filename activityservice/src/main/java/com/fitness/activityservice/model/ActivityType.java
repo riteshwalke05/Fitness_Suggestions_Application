@@ -10,6 +10,6 @@ public enum ActivityType {
 	HIIT,
 	CARDIO,
 	STRETCHING,
-	OTHER
+	OTHER, STRING
 
 }
