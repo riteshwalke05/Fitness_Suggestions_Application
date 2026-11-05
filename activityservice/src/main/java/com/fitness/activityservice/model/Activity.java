@@ -4,7 +4,9 @@ package com.fitness.activityservice.model;
 import java.time.LocalDateTime;
 import java.util.Map;
 
-import jakarta.persistence.Column;
+import org.hibernate.annotations.JdbcTypeCode;
+import org.hibernate.type.SqlTypes;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -14,7 +16,6 @@ import jakarta.persistence.Id;
 import jakarta.persistence.PrePersist;
 import jakarta.persistence.PreUpdate;
 import jakarta.persistence.Table;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -43,7 +44,7 @@ public class Activity {
 
 	private LocalDateTime startTime;
 
-	@Column(columnDefinition = "JSON")
+	@JdbcTypeCode(SqlTypes.JSON)
 	private Map<String, Object> additionalMetrics;
 
 	private LocalDateTime createdAt;
